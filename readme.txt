@@ -1,6 +1,7 @@
 === Golpo ===
 Contributors: fahimmurshed
 Author URI: http://murshidalam.com/
+Theme URI: https://www.murshidalam.com/themes/golpo/
 Donate link: https://www.murshidalam.com/donation/
 Requires at Least: 4.0
 Tested Up To: 5.2
