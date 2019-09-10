@@ -1,0 +1,133 @@
+/*
+Theme Name: Golpo
+Description: Golpo is a super fast Gutenberg ready WordPress theme for the Storyteller. Golpo a clean, minimal and SEO friendly theme. A clean and minimalist theme that allows your reader to focus on your content, build especially for daily or hobby bloggers who love to share their lifestyle, fashion, travel, entertainment, beauty or just a simple personal blog. Golpo theme best for single niche or multi niche blogging. Golpo is SEO optimize theme. It also Bootstrap based and it is RTL supported theme.
+Author: Fahim Murshed
+Author URI: https://www.murshidalam.com
+Theme URI: https://www.murshidalam.com/themes/golpo/
+Version: 1.0.7
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: golpo
+Tags: one-column, custom-background, custom-menu, featured-images, sticky-post, translation-ready, blog
+*/
+
+/*--------------------------------------------------------------
+1. Default HTML Tags Styles
+--------------------------------------------------------------*/
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #191e24;
+  font-size: 16px;
+  line-height: 2;
+  background-color: #f1f2f4;
+}
+p {
+  margin: 0 0 28px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+input[type=text],
+input[type=password],
+input[type=search],
+input[type=email],
+input[type=url],
+textarea {
+  display: block;
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #f1f2f4;
+  border-radius: 3px;
+  box-shadow: none;
+  outline: none !important;
+  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+          transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=search]:focus,
+input[type=email]:focus,
+input[type=url]:focus,
+textarea:focus {
+  border-color: #0fb1f5;
+}
+.comment-reply-link,
+input[type=button],
+input[type=submit],
+button {
+  background-color: #030120;
+  color: #fff;
+  border: none;
+  padding: 6px 25px;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s;
+          transition: all 0.3s;
+}
+.comment-reply-link:hover,
+input[type=button]:hover,
+input[type=submit]:hover,
+button:hover {
+  color: #fff;
+  background-color: #030120;
+  background-position: right center;
+}
+table {
+  width: 100%;
+  max-width: 100%;
+  border: 1px solid #ddd;
+  border-spacing: 0;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+table tr td,
+table tr th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+a {
+  text-decoration: none !important;
+  color: #030120;
+  overflow-wrap: break-word;
+  -webkit-transition: all 0.3s;
+          transition: all 0.3s;
+}
+a:hover {
+  color: #0fb1f5;
+}
+pre {
+  background-color: #f1f2f4;
+  border: 1px solid #d5d8de;
+  border-radius: 2px;
+}
+code {
+  color: #ff3366;
+  background-color: #fbefef;
+}
+kbd {
+  background-color: #191e24;
+}
+blockquote {
+  font-style: italic;
+  border-left-color: #f1f2f4;
+}
+dd {
+  margin-bottom: 15px;
+  padding-left: 15px;
+}
+
+/* All right. Now you can add your own CSS after this line */
+/* Custom CSS Start */

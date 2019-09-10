@@ -1,0 +1,258 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Golpo\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-21 19:48+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Murshid Alam <murshidblog@gmail.com>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.0; wp-5.2.2"
+
+#: inc/template-tags.php:108
+msgid "% Comments"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:89 inc/template-tags.php:115
+msgid ", "
+msgstr ""
+
+#. %s: Site Info
+#: footer.php:21
+msgid "//wordpress.org/"
+msgstr ""
+
+#: inc/template-tags.php:108
+msgid "1 Comment"
+msgstr ""
+
+#. tags_list
+#: inc/template-tags.php:118
+#, php-format
+msgid "<i class=\"fa fa-tags\"></i> %1$s"
+msgstr ""
+
+#: inc/wp_bootstrap_navwalker.php:366
+msgid "Add a menu"
+msgstr ""
+
+#: comments.php:28
+msgid "Comments"
+msgstr ""
+
+#: comments.php:55
+msgid "Comments are closed."
+msgstr ""
+
+#: template-parts/content-custom.php:22
+msgid "Custom:"
+msgstr ""
+
+#: inc/customizer.php:140
+msgid "Display some love by showing credit to me."
+msgstr ""
+
+#: inc/template-tags.php:124 template-parts/content-custom.php:29
+#: template-parts/content-page.php:29
+msgid "Edit"
+msgstr ""
+
+#: inc/customizer.php:53
+msgid "Facebook"
+msgstr ""
+
+#. Author of the theme
+msgid "Fahim Murshed"
+msgstr ""
+
+#: inc/customizer.php:117
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer.php:127
+msgid "Footer Text"
+msgstr ""
+
+#: inc/customizer.php:95
+msgid "Github"
+msgstr ""
+
+#. Name of the theme
+msgid "Golpo"
+msgstr ""
+
+#. %s: Author
+#: footer.php:25
+#, php-format
+msgid "Golpo (The Story) theme by %1$s"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Golpo is a super fast Gutenberg ready WordPress theme for the Storyteller. A "
+"clean and minimalist theme that allows your reader to focus on your content, "
+"build especially for daily or hobby bloggers who love to share their "
+"lifestyle, fashion, travel, entertainment, beauty or just a simple personal "
+"blog. Golpo theme best for single niche or multi niche blogging. Golpo is "
+"SEO optimize theme. It also Bootstrap based and it is RTL supported theme."
+msgstr ""
+
+#: inc/customizer.php:34
+msgid "Header Background Color"
+msgstr ""
+
+#: inc/customizer.php:122
+msgid "https://wordpress.org/"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://www.murshidalam.com"
+msgstr ""
+
+#. URI of the theme
+msgid "https://www.murshidalam.com/themes/golpo/"
+msgstr ""
+
+#: inc/customizer.php:81
+msgid "Instagram"
+msgstr ""
+
+#: 404.php:20
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: template-parts/content-none.php:30
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: inc/template-tags.php:108
+msgid "Leave a comment"
+msgstr ""
+
+#: functions.php:228
+msgid "light grayish magenta"
+msgstr ""
+
+#: comments.php:34 comments.php:50
+msgid "Newer comments"
+msgstr ""
+
+#: inc/template-tags.php:31
+msgid "Newer posts"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: comments.php:33 comments.php:49
+msgid "Older comments"
+msgstr ""
+
+#: inc/template-tags.php:27
+msgid "Older posts"
+msgstr ""
+
+#: 404.php:17
+msgid "Oops! That page can not be found."
+msgstr ""
+
+#. Name of the template
+msgid "Page Full Width"
+msgstr ""
+
+#. Name of the template
+msgid "Page Right Sidebar"
+msgstr ""
+
+#: template-parts/content-page.php:22 template-parts/content.php:46
+msgid "Pages:"
+msgstr ""
+
+#: inc/template-tags.php:56
+msgid "Post navigation"
+msgstr ""
+
+#: inc/template-tags.php:23
+msgid "Posts navigation"
+msgstr ""
+
+#: functions.php:48
+msgid "Primary Menu"
+msgstr ""
+
+#: footer.php:21 inc/customizer.php:122
+msgid "Proudly powered by WordPress"
+msgstr ""
+
+#: inc/template-tags.php:75
+msgid "Published on: "
+msgstr ""
+
+#. %s: Name of current post.
+#: template-parts/content.php:38
+#, php-format
+msgid "Read more %1$s %2$s"
+msgstr ""
+
+#. %s: search term
+#: template-parts/content-none.php:21
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#. %s: search term
+#: search.php:21
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: functions.php:109
+msgid "Sidebar"
+msgstr ""
+
+#: inc/customizer.php:42
+msgid "Social"
+msgstr ""
+
+#: template-parts/content-none.php:25
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: functions.php:223
+msgid "strong magenta"
+msgstr ""
+
+#: inc/customizer.php:67
+msgid "Twitter"
+msgstr ""
+
+#: inc/template-tags.php:75
+msgid "Updated: "
+msgstr ""
+
+#: functions.php:238
+msgid "very dark gray"
+msgstr ""
+
+#: functions.php:233
+msgid "very light gray"
+msgstr ""
+
+#: inc/customizer.php:109
+msgid "Youtube"
+msgstr ""
