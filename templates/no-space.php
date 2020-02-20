@@ -1,7 +1,7 @@
 <?php
 /**
  * Template Name: No Space Page
- * The template for displaying full width pages wihout sidebar.
+ * The template for displaying full width pages without sidebar.
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *

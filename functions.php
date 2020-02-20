@@ -122,19 +122,19 @@ add_action( 'widgets_init', 'golpo_widgets_init' );
  * Enqueue scripts and styles.
  */
 function golpo_scripts() {
-	//Golpo CSS
+	// Golpo CSS
 	wp_enqueue_style( 'golpo-google-font', golpo_fonts_url(), false );
 	wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/assets/css/bootstrap.min.css' );
-	//RTL start
+	// RTL start
 	if(is_rtl()) {
 		wp_enqueue_style( 'bootstrap-rtl', get_template_directory_uri() . '/assets/css/bootstrap-rtl.css' );
 	}
-	//RTL end
+	// RTL end
 	wp_enqueue_style( 'golpo-style', get_stylesheet_uri(), array( 'bootstrap', 'font-awesome' ) );
 	wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/assets/font-awesome/css/font-awesome.css' );
 	wp_enqueue_style( 'golpo-main', get_template_directory_uri() . '/assets/css/golpo.css' );
 
-	//Golpo JS
+	// Golpo JS
 	wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/assets/js/bootstrap.min.js', array( 'jquery' ), '20190522', true );
 	wp_enqueue_script( 'golpo-skip-link-focus-fix', get_template_directory_uri() . '/assets/js/skip-link-focus-fix.js', array(), '20130112', true );
 
@@ -211,7 +211,7 @@ require get_template_directory() . '/inc/jetpack.php';
 require_once get_template_directory() . '/inc/wp_bootstrap_navwalker.php';
 
 /**
- * Guttenberg support ❤
+ * Gutenberg support ❤
  */
 add_theme_support('align-wide');
 

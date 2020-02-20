@@ -37,7 +37,7 @@ function golpo_customize_register( $wp_customize ) {
 		'priority'    => 9
 	) ) );
 	
-	// Social Facebook Section
+	// Social Facebook Section.
 	$wp_customize->add_section( 'social' , array(
 		'title'      => esc_html__( 'Social', 'golpo' ),
 		'priority'   => 30,
@@ -56,7 +56,7 @@ function golpo_customize_register( $wp_customize ) {
 		'priority'    => 9
 	) );
 
-	// Social Twitter Section
+	// Social Twitter Section.
 	$wp_customize->add_setting( 'social_twitter' , array(
 		'default'     => '',
 		'transport'   => 'postMessage',
@@ -70,7 +70,7 @@ function golpo_customize_register( $wp_customize ) {
 		'priority'    => 9
 	) );
 
-	// Social Instagram Section
+	// Social Instagram Section.
 	$wp_customize->add_setting( 'social_instagram' , array(
 		'default'     => '',
 		'transport'   => 'postMessage',
@@ -84,7 +84,7 @@ function golpo_customize_register( $wp_customize ) {
 		'priority'    => 9
 	) );
 
-	// Social Github Section
+	// Social GitHub Section.
 	$wp_customize->add_setting( 'social_github' , array(
 		'default'     => '',
 		'transport'   => 'postMessage',
@@ -92,13 +92,13 @@ function golpo_customize_register( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( 'social_github', array(
-		'label'        => esc_html__( 'Github', 'golpo' ),
+		'label'        => esc_html__( 'GitHub', 'golpo' ),
 		'section'    => 'social',
 		'settings'   => 'social_github',
 		'priority'    => 9
 	) );
 
-	// Social Youtube Section
+	// Social Youtube Section.
 	$wp_customize->add_setting( 'social_youtube' , array(
 		'default'     => '',
 		'transport'   => 'postMessage',
@@ -112,7 +112,7 @@ function golpo_customize_register( $wp_customize ) {
 		'priority'    => 9
 	) );
 
-	// Footer Section
+	// Footer Section.
 	$wp_customize->add_section( 'footer' , array(
 		'title'      => esc_html__( 'Footer', 'golpo' ),
 		'priority'   => 30,
