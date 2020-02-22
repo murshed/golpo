@@ -31,7 +31,7 @@ Alternatively,
 3. Search for "Golpo".
 4. Click on Install and Activate.
 
-If you need any help or assistance we'd be happy to help. Just drop a line here- http://murshidalam.com/contct
+If you need any help or assistance we'd be happy to help. Just drop a line here- http://murshidalam.com/contact
 
 = Does this theme support any plugins? =
 Golpo includes support for Infinite Scroll in Jetpack, WordPress Page Builder by Themeum.
