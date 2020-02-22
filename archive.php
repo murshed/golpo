@@ -1,7 +1,7 @@
 <?php
 /**
  * The template for displaying archive pages.
- * 
+ *
  * User Profile: https://profiles.wordpress.org/fahimmurshed
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
@@ -11,7 +11,7 @@
 get_header(); ?>
 <div class="container">
 	<div class="row">
-		<div class="col-md-12">
+		<div class="col-auto">
 			<header class="page-header">
 				<?php
 					the_archive_title( '<h2 class="page-title">', '</h2>' );
@@ -19,7 +19,7 @@ get_header(); ?>
 				?>
 			</header><!-- .page-header -->
 		</div>
-		<div id="primary" class="content-area col-md-8">
+		<div id="primary" class="content-area col-md-9">
 			<main id="main" class="site-main" role="main">
 
 			<?php if ( have_posts() ) : ?>

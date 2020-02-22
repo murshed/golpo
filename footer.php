@@ -1,7 +1,7 @@
 <?php
 /**
  * The template for displaying the footer.
- * 
+ *
  * User Profile: https://profiles.wordpress.org/fahimmurshed
  *
  * Contains the closing of the #content div and all content after.
@@ -28,7 +28,7 @@
 						<?php endif; ?>
 					</div><!-- .site-info -->
 				</div>
-				<div class="col-sm">
+				<div class="col-auto">
 					<ul class="social-footer clearfix">
 						<?php if( get_theme_mod( 'social_facebook' )): ?>
 							<li><a href="<?php echo esc_url( get_theme_mod( 'social_facebook' ) ); ?>" class="facebook"><i class="fa fa-facebook"></i></a></li>

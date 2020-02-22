@@ -1,24 +1,21 @@
 === Golpo ===
 Contributors: fahimmurshed
 Author URI: http://murshidalam.com/
-Theme URI: https://www.murshidalam.com/themes/golpo/
 Donate link: https://www.murshidalam.com/donation/
 Requires at Least: 4.0
-Tested Up To: 5.2
+Tested Up To: 5.3
 Requires PHP: 5.6
-Stable Tag: 1.0.7
+Stable Tag: 1.1.7
 
-Golpo is a super fast Gutenberg ready WordPress theme for the Storyteller.
+Golpo - Gutenberg ready WordPress theme for the Storyteller.
 
 Golpo WordPress Theme, Copyright 2019 Fahim Murshed
 Golpo is distributed under the terms of the GNU GPL
 
 == Description ==
-
-Golpo is a super fast Gutenberg ready WordPress theme for the Storyteller. A clean and minimalist theme that allows your reader to focus on your content, build especially for daily or hobby bloggers who love to share their lifestyle, fashion, travel, entertainment, beauty or just a simple personal blog. Golpo theme best for single niche or multi niche blogging. Golpo is SEO optimize theme. It also Bootstrap based fully RTL supported theme.
+Golpo is a most powerful Gutenberg ready for the Storyteller. A plain-vanilla & lightweight theme for a new blogger also clean and minimalist that allows your reader to focus on your content, build especially for daily or hobby bloggers who love to share their lifestyle, fashion, travel, entertainment, beauty or just a simple personal blog. Golpo is a very fast, responsive, RTL & translation ready, best SEO practices. Golpo theme best for single niche or multi niche blogging and SEO optimized.
 
 == Frequently Asked Questions ==
-
 = How to install Golpo theme=
 1. Login your WordPress dashboard.
 2. Go to "Appearance" -> "Theme" and click on "Add New" button.
@@ -37,7 +34,6 @@ Alternatively,
 If you need any help or assistance we'd be happy to help. Just drop a line here- http://murshidalam.com/contct
 
 = Does this theme support any plugins? =
-
 Golpo includes support for Infinite Scroll in Jetpack, WordPress Page Builder by Themeum.
 
 == Upgrade Notice ==
@@ -50,7 +46,6 @@ Go to "Appearance" > Themes >
 You'll see the theme upgrade notice. Just click on the update.
 
 == Credits ==
-
 Golpo WordPress Theme bundles the following third-party resources:
 
 * Thanks a lot Automattic and Underscors team. Without this (_s theme) I am not able to create such like this theme. Golpo based on Underscores https://underscores.me/, (C) 2012-2019 Automattic, Inc., [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
@@ -59,20 +54,53 @@ Golpo WordPress Theme bundles the following third-party resources:
 * Font Awesome http://fontawesome.io/ [MIT] (http://opensource.org/licenses/MIT)
 * Glyphicons (Free) https://www.glyphicons.com [CC BY 3.0] https://creativecommons.org/licenses/by/3.0/
 * WP Bootstrap Navwalker https://github.com/wp-bootstrap/wp-bootstrap-navwalker [GPLv3+] (http://www.gnu.org/licenses/gpl-3.0.txt)
+* Title Remover by WPGurus https://wordpress.org/plugins/title-remover [GPLv2+] (http://www.gnu.org/licenses/gpl-2.0.txt)
 
 == Demo content images ==
   * Screenshot image by https://stocksnap.io [CC0] (https://stocksnap.io/license)
-  ** Image https://stocksnap.io/photo/FMJOIWUH4F [CC0] (https://stocksnap.io/license)
-  ** Image https://stocksnap.io/photo/3WDBHEJC4H [CC0] (https://stocksnap.io/license)
-
+  ** Image https://stocksnap.io/photo/MRF1628S9A [CC0] (https://stocksnap.io/license)
+  ** Image https://stocksnap.io/photo/ZMITOKLCAA [CC0] (https://stocksnap.io/license)
 
 == Screenshots ==
-
 1. This screen shot description corresponds to screenshot1.(png|jpg|jpeg|gif). Note that the screenshot is taken from
-the directory of the stable readme.txt, so in this case, ` https://themes.svn.wordpress.org/golpo/1.0.2/screenshot.png` (or jpg, jpeg, gif)
+the directory of the stable readme.txt, so in this case, `https://themes.svn.wordpress.org/golpo/1.1.7/screenshot.png` (or jpg, jpeg, gif)
 
 
 == Changelog ==
+= 1.1.7 =
+* Block based
+
+= 1.1.6 =
+* Adding post/page show hide option
+
+= 1.1.5 =
+* Fixed theme CSS
+
+= 1.1.4 =
+* Added container and widgets border-top CSS
+
+= 1.1.3 =
+* Change entry-title text transforma
+
+= 1.1.2 =
+* Added homepage sidebar
+* Change screenshot
+* Fix theme CSS
+
+= 1.1.1 =
+* Chnage Ubunto font to Nunito
+
+= 1.1.0 =
+* Fixed known bugs
+
+= 1.0.9 =
+* Menu align issue solved
+* Post pagination CSS fixed
+
+= 1.0.8 =
+* Fixed known bugs
+* Fixed menu CSS bugs
+
 = 1.0.7 =
 * Remove post and Page animation
 * Fix Post and Page redius issue

@@ -72,7 +72,7 @@ if ( ! function_exists( 'golpo_posted_on' ) ) :
 function golpo_posted_on() {
 	$time_string = '<time class="entry-date published updated" datetime="%1$s">%2$s </time>';
 	if ( get_the_time( 'U' ) !== get_the_modified_time( 'U' ) ) {
-		$time_string = '<time class="entry-date published" datetime="%1$s">'.__('Published on: ', 'golpo').' %2$s</time> '.__('Updated: ', 'golpo').'<time class="updated hidden" datetime="%3$s">%4$s</time>';
+		$time_string = '<time class="entry-date published" datetime="%1$s">'.__('Published: ', 'golpo').' %2$s</time> '.__(' / Updated: ', 'golpo').'<time class="updated hidden" datetime="%3$s">%4$s</time>';
 	}
 
 	$time_string = sprintf( $time_string,
@@ -115,7 +115,7 @@ function golpo_entry_footer() {
 		$tags_list = get_the_tag_list( '', esc_html__( ', ', 'golpo' ) );
 		if ( $tags_list ) {
 			/* translators: tags_list */
-			printf( '<span class="tags-links">' . wp_kses( __( '<i class="fa fa-tags"></i> %1$s', 'golpo' ), array('i' => array( 'class' => array() ))) . '</span>', wp_kses_post($tags_list) ); // WPCS: XSS OK.
+			printf( '<span class="tags-links">' . wp_kses( __( '<i class="fa fa-tags"></i> %1$s', 'golpo' ), array('i' => array( 'class' => array() ))) . '</span>', wp_kses_post($tags_list) ); // phpcs:ignore Standard.Category.SniffName.ErrorCode
 		}
 	}
 

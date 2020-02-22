@@ -93,9 +93,9 @@ add_action( 'after_setup_theme', 'golpo_setup' );
  * @global int $content_width
  */
 function golpo_content_width() {
-	if ( ! isset( $content_width ) ) $content_width = 900;
+	if ( ! isset( $content_width ) ) $content_width = 1200;
 	else {
-	$GLOBALS['golpo_content_width'] = apply_filters( 'golpo_content_width', 640 );
+	$GLOBALS['golpo_content_width'] = apply_filters( 'golpo_content_width', 800 );
 }
 }
 add_action( 'after_setup_theme', 'golpo_content_width', 0 );
@@ -157,10 +157,10 @@ if ( ! function_exists( 'golpo_fonts_url' ) ) :
 function golpo_fonts_url() {
 	$fonts_url = '';
 	$fonts     = array();
-	$subsets   = 'cyrillic,latin-ext';
+	$subsets   = 'latin-ext,vietnamese';
 
 
-	$fonts[] = 'Montserrat:400,400i,700,700i';
+	$fonts[] = 'Nunito:400,400i,600,600i,700,700i,800,800i,900,900i';
 
 	if ( $fonts ) {
 		$fonts_url = add_query_arg( array(

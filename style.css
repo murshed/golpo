@@ -1,29 +1,28 @@
 /*
 Theme Name: Golpo
-Description: Golpo is a super fast Gutenberg ready WordPress theme for the Storyteller. Golpo a clean, minimal and SEO friendly theme. A clean and minimalist theme that allows your reader to focus on your content, build especially for daily or hobby bloggers who love to share their lifestyle, fashion, travel, entertainment, beauty or just a simple personal blog. Golpo theme best for single niche or multi niche blogging. Golpo is SEO optimize theme. It also Bootstrap based and it is RTL supported theme.
+Description: Golpo is a lightweight WordPress theme built with a focus on speed and usability. Even this is a free theme you will find most of the advanced theme customizer options that you may find only on premium themes like, typography options, header layout options, advanced color options, blog layout options, social media options, etc. Just install the theme and customize it as you like. Golpo is flexible, fast, fully customizable & beautiful theme suitable for blog, personal portfolio, business website and it's most powerful gutenberg ready for the Storyteller. A plain-vanilla & lightweight theme for a new blogger also clean and minimalist that allows your reader to focus on your content, build especially for daily or hobby bloggers who love to share their lifestyle, fashion, travel, entertainment, beauty or just a simple personal blog. Golpo is a very fast, responsive, RTL & translation ready, best SEO practices. Golpo theme best for single niche or multi niche blogging and SEO optimized. It's perfect for blogs, small business, startups, agencies, firms as well as personal portfolio sites and most types of projects. Look no further. Golpo is the perfect theme for you!
 Author: Fahim Murshed
 Author URI: https://www.murshidalam.com
 Theme URI: https://www.murshidalam.com/themes/golpo/
-Version: 1.0.7
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Version: 1.1.7
+License: GNU General Public License v3
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: golpo
-Tags: one-column, custom-background, custom-menu, featured-images, sticky-post, translation-ready, blog
+Tags: two-columns, footer-widgets, blog, news, custom-background, custom-menu, post-formats, rtl-language-support, sticky-post, editor-style, right-sidebar, threaded-comments, translation-ready, buddypress, custom-colors, featured-images, full-width-template, theme-options, e-commerce
 */
 
 /*--------------------------------------------------------------
 1. Default HTML Tags Styles
 --------------------------------------------------------------*/
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Nunito', sans-serif;
   color: #191e24;
   font-size: 16px;
   line-height: 2;
-  background-color: #f1f2f4;
+  background-color: #f5f5f5;
 }
-p {
-  margin: 0 0 28px;
-}
+
+a:hover {text-decoration: none}
 img {
   max-width: 100%;
   height: auto;
@@ -82,7 +81,7 @@ input[type=button]:hover,
 input[type=submit]:hover,
 button:hover {
   color: #fff;
-  background-color: #030120;
+  background-color: #595777;
   background-position: right center;
 }
 table {
@@ -97,16 +96,6 @@ table tr td,
 table tr th {
   border: 1px solid #ddd;
   padding: 8px;
-}
-a {
-  text-decoration: none !important;
-  color: #030120;
-  overflow-wrap: break-word;
-  -webkit-transition: all 0.3s;
-          transition: all 0.3s;
-}
-a:hover {
-  color: #0fb1f5;
 }
 pre {
   background-color: #f1f2f4;

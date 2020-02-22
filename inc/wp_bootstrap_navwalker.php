@@ -371,7 +371,7 @@ if ( ! class_exists( 'WP_Bootstrap_Navwalker' ) ) {
 
 				// if $args has 'echo' key and it's true echo, otherwise return.
 				if ( array_key_exists( 'echo', $args ) && $args['echo'] ) {
-					echo esc_url($fallback_output); // WPCS: XSS OK.
+					echo esc_url($fallback_output); // phpcs:ignore Standard.Category.SniffName.ErrorCode
 				} else {
 					return esc_url($fallback_output);
 				}
